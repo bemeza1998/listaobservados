@@ -1,4 +1,4 @@
-package ec.edu.espe.arquitectura.listaobservados.resource;
+package ec.edu.espe.arquitectura.listaobservados.repository;
 
 import ec.edu.espe.arquitectura.listaobservados.model.Narcotraficante;
 import java.util.List;
