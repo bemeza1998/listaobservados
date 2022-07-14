@@ -12,7 +12,7 @@ public class NarcotraficanteService {
 
   private final NarcotraficanteRepository NarcotraficanteRepository;
 
-  public List<Narcotraficante> buscar(String nombre) {
+  public List<Narcotraficante> ConsultaListaObservados(String nombre) {
     return this.NarcotraficanteRepository.findByNombreCompleto(nombre);
   }
 }

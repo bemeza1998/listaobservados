@@ -16,6 +16,6 @@ public class NarcotraficanteResource {
 
   @GetMapping
   public ResponseEntity buscar(String nombre) {
-    return ResponseEntity.ok(this.narcotraficanteService.buscar(nombre));
+    return ResponseEntity.ok(this.narcotraficanteService.ConsultaListaObservados(nombre));
   }
 }
