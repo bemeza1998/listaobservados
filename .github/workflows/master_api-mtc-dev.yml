@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'api-mtc-dev'
           slot-name: 'Production'
-          package: '*.war'
+          package: '*.jar'
           
